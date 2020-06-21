@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "//example.org"
+baseURL = "https://www.vignette.agency/"
 languageCode = "en-US"
 title = "Vignette Content Agency"
 theme = "hugo-split-theme"
@@ -32,11 +32,11 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       position = "center center"
 
     # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
+    # [params.visual.video]
+    #   enable = false
+    #   mute = true
+    #   file = "videos/background.mp4"
+    #   # youtubeId = "dk9uNWPP7EA"
 
   # Links
   #
@@ -47,7 +47,7 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
 
       [[params.links.list1.link]]
         text = "Email"
-        url = "mailto:natalieboruvka@gmail.com"
+        url = "contact/"
 
       [[params.links.list1.link]]
         text = "Newsletter"
@@ -59,16 +59,16 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
-
-      [[params.links.list2.link]]
         text = "Instagram"
         url = "https://instagram.com/vignette.sa/"
 
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+      # [[params.links.list2.link]]
+      #   text = "Instagram"
+      #   url = "https://instagram.com/vignette.sa/"
+
+      # [[params.links.list2.link]]
+      #   text = "Dribbble"
+      #   url = "#"
 
   # Links List #3
   [[params.links]]
@@ -76,16 +76,16 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       heading = "Network"
 
       [[params.links.list3.link]]
-        text = "Karl Rogers - our photographer"
-        url = "https://karlrogers.co.za/"
-
-      [[params.links.list3.link]]
-        text = "Natalie Boruvka - our writer"
+        text = "Natalie Boruvka - content producer and writer"
         url = "https://natalieboruvka.com/"
 
       [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+        text = "Karl Rogers - photographer"
+        url = "https://karlrogers.co.za/"
+
+      # [[params.links.list3.link]]
+      #   text = "Link Three"
+      #   url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

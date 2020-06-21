@@ -21,6 +21,15 @@
 <!-- Favicon -->
 {{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | absURL }}" />{{ end }}
 
+<!-- Thank you to https://realfavicongenerator.net/ for the extra favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | absURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
+<link rel="mask-icon" href="{{ "safari-pinned-tab.svg" | absURL }}" color="#000000">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">
+
 <!-- Styles -->
 <link rel="stylesheet" href="{{ "assets/css/split.css" | absURL }}" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
