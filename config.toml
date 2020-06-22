@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://www.vignette.agency/"
+baseURL = "https://vignette.agency"
 languageCode = "en-US"
 title = "Vignette Content Agency"
 theme = "hugo-split-theme"
