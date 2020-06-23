@@ -6,7 +6,7 @@ theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-170489089-1"
 
 # Copyright
 copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
