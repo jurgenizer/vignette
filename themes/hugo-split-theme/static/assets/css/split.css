@@ -180,7 +180,7 @@ body.page-template-page-fullsingle-split p {
 
 .split-intro {
   font-weight: 600;
-  font-size: 53px;
+  font-size: 46px;
   line-height: 70px;
   letter-spacing: -2px;
 }
@@ -198,7 +198,7 @@ body.page-template-page-fullsingle-split p {
 }
 
 .split-bio {
-  padding: 35px 0 20px 0;
+  padding: 28px 0 18px 0;
   font-family: "Lora", serif;
 }
 @media (max-width: 1200px) {
@@ -421,7 +421,6 @@ video.video {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -432,7 +431,6 @@ video.video {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -444,8 +442,8 @@ video.video {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 
@@ -461,7 +459,6 @@ video.video {
   display: inline-block;
   border: 2px solid #ccc;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
 }

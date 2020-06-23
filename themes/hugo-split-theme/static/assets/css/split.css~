@@ -115,7 +115,7 @@ body.page-template-page-fullsingle-split {
   background-color: #061C30;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 26px;
   letter-spacing: -0.2px;
   color: #848d96;
@@ -162,26 +162,26 @@ body.page-template-page-fullsingle-split p {
   }
 }
 .fs-split .split-content .split-content-vertically-center {
-  padding: 55px;
+  padding: 80px;
   max-width: 640px;
   margin-top: auto;
   margin-bottom: auto;
 }
 @media (max-width: 1200px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 40px;
+    padding: 60px;
   }
 }
 @media (max-width: 800px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 30px;
+    padding: 40px;
   }
 }
 
 .split-intro {
   font-weight: 600;
-  font-size: 55px;
-  line-height: 68px;
+  font-size: 50px;
+  line-height: 66px;
   letter-spacing: -2px;
 }
 .split-intro h1 {
@@ -189,7 +189,7 @@ body.page-template-page-fullsingle-split p {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   letter-spacing: 0.4px;
   color: #47bec7;
 }
@@ -198,17 +198,17 @@ body.page-template-page-fullsingle-split p {
 }
 
 .split-bio {
-  padding: 20px 0 18px 0;
+  padding: 35px 0 20px 0;
   font-family: "Lora", serif;
 }
 @media (max-width: 1200px) {
   .split-bio {
-    padding: 30px 0 10px 0;
+    padding: 25px 0 10px 0;
   }
 }
 @media (max-width: 800px) {
   .split-bio {
-    padding: 16px 0 0 0;
+    padding: 15px 0 0 0;
   }
 }
 .split-bio p {
@@ -340,7 +340,7 @@ body.page-template-page-fullsingle-split p {
   text-transform: uppercase;
   font-size: 11px;
   line-height: 11px;
-  margin-bottom: 23px;
+  margin-bottom: 31px;
   color: #848d96;
   letter-spacing: 2px;
   opacity: 0.5;
@@ -348,7 +348,7 @@ body.page-template-page-fullsingle-split p {
 .split-lists .split-list ul li {
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .split-lists .split-list ul li a {
   color: #848d96;
@@ -421,6 +421,7 @@ video.video {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -431,6 +432,7 @@ video.video {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
   box-sizing: border-box;
 }
 
@@ -459,6 +461,7 @@ video.video {
   display: inline-block;
   border: 2px solid #ccc;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
   background-color: #f8f8f8;
   resize: none;
 }
