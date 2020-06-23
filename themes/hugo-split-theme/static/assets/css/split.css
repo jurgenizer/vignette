@@ -115,8 +115,8 @@ body.page-template-page-fullsingle-split {
   background-color: #061C30;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 21px;
-  line-height: 33px;
+  font-size: 17px;
+  line-height: 26px;
   letter-spacing: -0.2px;
   color: #848d96;
   animation: fadein 2s;
@@ -162,26 +162,26 @@ body.page-template-page-fullsingle-split p {
   }
 }
 .fs-split .split-content .split-content-vertically-center {
-  padding: 80px;
+  padding: 55px;
   max-width: 640px;
   margin-top: auto;
   margin-bottom: auto;
 }
 @media (max-width: 1200px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 60px;
+    padding: 40px;
   }
 }
 @media (max-width: 800px) {
   .fs-split .split-content .split-content-vertically-center {
-    padding: 40px;
+    padding: 30px;
   }
 }
 
 .split-intro {
   font-weight: 600;
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 55px;
+  line-height: 68px;
   letter-spacing: -2px;
 }
 .split-intro h1 {
@@ -198,7 +198,7 @@ body.page-template-page-fullsingle-split p {
 }
 
 .split-bio {
-  padding: 40px 0 20px 0;
+  padding: 20px 0 18px 0;
   font-family: "Lora", serif;
 }
 @media (max-width: 1200px) {
@@ -208,7 +208,7 @@ body.page-template-page-fullsingle-split p {
 }
 @media (max-width: 800px) {
   .split-bio {
-    padding: 20px 0 0 0;
+    padding: 16px 0 0 0;
   }
 }
 .split-bio p {
@@ -340,15 +340,15 @@ body.page-template-page-fullsingle-split p {
   text-transform: uppercase;
   font-size: 11px;
   line-height: 11px;
-  margin-bottom: 31px;
+  margin-bottom: 23px;
   color: #848d96;
   letter-spacing: 2px;
   opacity: 0.5;
 }
 .split-lists .split-list ul li {
-  font-size: 16px;
-  line-height: 16px;
-  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
 }
 .split-lists .split-list ul li a {
   color: #848d96;
@@ -442,8 +442,10 @@ video.video {
   margin: 8px 0;
   border: none;
   border-radius: 4px;
+  -webkit-border-radius: 4px;
   cursor: pointer;
 }
+
 
 .split-form input[type=submit]:hover {
   background-color: #45a049;

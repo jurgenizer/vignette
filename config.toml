@@ -15,7 +15,7 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
 
   # Metadata for search engines and social sharing
   author = "Natalie Boruvka"
-  description = "Vignette is a photographic content agency showcasing beautiful homes and residential decor."
+  description = "Vignette is a photographic content agency specialising in decor and lifestyle editorials. In addition, we create bespoke imagery to elevate brands."
   shareImage = "images/social.jpg"
   #twitterHandle = "onepagelove"
 
@@ -43,15 +43,15 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Connect"
+      heading = "Network"
 
       [[params.links.list1.link]]
-        text = "Email"
-        url = "contact/"
+        text = "Karl Rogers karlrogers.co.za"
+        url = "https://karlrogers.co.za/"
 
       [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+        text = "Natalie Boruvka\rnatalieboruvka.com"
+        url = "https://natalieboruvka.com/"
 
   # Links List #2
   [[params.links]]
@@ -73,15 +73,15 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Network"
+      heading = "Connect"
 
       [[params.links.list3.link]]
-        text = "Natalie Boruvka - content producer and writer"
-        url = "https://natalieboruvka.com/"
+        text = "Email"
+        url = "contact/"
 
       [[params.links.list3.link]]
-        text = "Karl Rogers - photographer"
-        url = "https://karlrogers.co.za/"
+        text = "+27 72 606 9392"
+        url = "#"
 
       # [[params.links.list3.link]]
       #   text = "Link Three"
