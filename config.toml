@@ -15,12 +15,15 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
 
   # Metadata for search engines and social sharing
   author = "Natalie Boruvka"
-  description = "Vignette is a photographic content agency specialising in decor and lifestyle editorials. In addition, we create bespoke imagery to elevate brands."
+  description = "Vignette is a photographic content agency specialising in decor and lifestyle editorials. We create bespoke imagery to elevate brands."
   shareImage = "images/social.jpg"
   #twitterHandle = "onepagelove"
 
   # Favicon
   favicon = "favicon.ico"
+
+  [params.custom.css]
+  enable = true
 
   # Section - Visual
   [params.visual]
@@ -32,11 +35,11 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       position = "center center"
 
     # Video
-    # [params.visual.video]
-    #   enable = false
-    #   mute = true
-    #   file = "videos/background.mp4"
-    #   # youtubeId = "dk9uNWPP7EA"
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+    # youtubeId = "dk9uNWPP7EA"
 
   # Links
   #
@@ -59,7 +62,7 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Instagram"
+        text = "Instagram @vignette.sa"
         url = "https://instagram.com/vignette.sa/"
 
       # [[params.links.list2.link]]
@@ -76,12 +79,12 @@ copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
       heading = "Connect"
 
       [[params.links.list3.link]]
-        text = "Email"
-        url = "contact/"
-
-      [[params.links.list3.link]]
         text = "+27 72 606 9392"
         url = "#"
+
+      [[params.links.list3.link]]
+        text = "Contact Form"
+        url = "contact/"
 
       # [[params.links.list3.link]]
       #   text = "Link Three"

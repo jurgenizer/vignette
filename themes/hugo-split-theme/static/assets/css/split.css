@@ -115,8 +115,8 @@ body.page-template-page-fullsingle-split {
   background-color: #061C30;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 21px;
+  line-height: 33px;
   letter-spacing: -0.2px;
   color: #848d96;
   animation: fadein 2s;
@@ -180,8 +180,8 @@ body.page-template-page-fullsingle-split p {
 
 .split-intro {
   font-weight: 600;
-  font-size: 46px;
-  line-height: 70px;
+  font-size: 64px;
+  line-height: 80px;
   letter-spacing: -2px;
 }
 .split-intro h1 {
@@ -198,17 +198,17 @@ body.page-template-page-fullsingle-split p {
 }
 
 .split-bio {
-  padding: 28px 0 18px 0;
+  padding: 40px 0 20px 0;
   font-family: "Lora", serif;
 }
 @media (max-width: 1200px) {
   .split-bio {
-    padding: 25px 0 10px 0;
+    padding: 30px 0 10px 0;
   }
 }
 @media (max-width: 800px) {
   .split-bio {
-    padding: 15px 0 0 0;
+    padding: 20px 0 0 0;
   }
 }
 .split-bio p {
@@ -346,8 +346,8 @@ body.page-template-page-fullsingle-split p {
   opacity: 0.5;
 }
 .split-lists .split-list ul li {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
   margin-bottom: 12px;
 }
 .split-lists .split-list ul li a {
@@ -410,55 +410,4 @@ video.video {
   object-position: 50% 50%;
   width: 100%;
   height: 100%;
-}
-
-/* Form */
-
-.split-form input[type=text]{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.split-form input[type=email]{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.split-form input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-appearance: none;
-}
-
-
-.split-form input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.split-form textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  display: inline-block;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
 }
