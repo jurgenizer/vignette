@@ -13,3 +13,5 @@ fields:
   config: {}
   label: Upload feature photos
   description: Upload feature photos here
+pages:
+- content/house-rupertti-yazdi.md
