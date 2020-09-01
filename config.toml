@@ -1,96 +1,46 @@
-# Site settings
 baseURL = "https://vignette.agency"
-languageCode = "en-US"
-title = "Vignette Content Agency"
-theme = "hugo-split-theme"
-disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-170489089-1"
-
-# Copyright
 copyright = "&copy;2020 Vignette: Natalie Boruvka and Karl Rogers"
-
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+googleAnalytics = "UA-170489089-1"
+languageCode = "en-US"
+theme = "hugo-split-theme"
+title = "Vignette Content Agency"
 [params]
-
-  # Metadata for search engines and social sharing
-  author = "Natalie Boruvka"
-  description = "Vignette is a photographic content agency specialising in decor and lifestyle editorials. We create bespoke imagery to elevate brands."
-  shareImage = "images/social.jpg"
-  #twitterHandle = "onepagelove"
-
-  # Favicon
-  favicon = "favicon.ico"
-
-  [params.custom.css]
-  enable = true
-
-  # Section - Visual
-  [params.visual]
-
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/background.jpg"
-      position = "center center"
-
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-    # youtubeId = "dk9uNWPP7EA"
-
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Network"
-
-      [[params.links.list1.link]]
-        text = "Karl Rogers karlrogers.co.za"
-        url = "https://karlrogers.co.za/"
-
-      [[params.links.list1.link]]
-        text = "Natalie Boruvka natalieboruvka.com"
-        url = "https://natalieboruvka.com/"
-
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Social"
-
-      [[params.links.list2.link]]
-        text = "Instagram @vignette.sa"
-        url = "https://instagram.com/vignette.sa/"
-
-      # [[params.links.list2.link]]
-      #   text = "Instagram"
-      #   url = "https://instagram.com/vignette.sa/"
-
-      # [[params.links.list2.link]]
-      #   text = "Dribbble"
-      #   url = "#"
-
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Connect"
-
-      [[params.links.list3.link]]
-        text = "+27 72 606 9392"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Contact Form"
-        url = "contact/"
-
-      # [[params.links.list3.link]]
-      #   text = "Link Three"
-      #   url = "#"
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+author = "Natalie Boruvka"
+description = "Vignette is a photographic content agency specialising in decor and lifestyle editorials. We create bespoke imagery to elevate brands."
+favicon = "favicon.ico"
+shareImage = "images/social.jpg"
+[params.custom.css]
+enable = true
+[params.visual.image]
+enable = true
+file = "images/background.jpg"
+position = "center center"
+[params.visual.video]
+enable = false
+file = "videos/background.mp4"
+mute = true
+[[params.links]]
+[params.links.list1]
+heading = "Network"
+[[params.links.list1.link]]
+text = "Karl Rogers karlrogers.co.za"
+url = "https://karlrogers.co.za/"
+[[params.links.list1.link]]
+text = "Natalie Boruvka natalieboruvka.com"
+url = "https://natalieboruvka.com/"
+[[params.links]]
+[params.links.list2]
+heading = "Social"
+[[params.links.list2.link]]
+text = "Instagram @vignette.sa"
+url = "https://instagram.com/vignette.sa/"
+[[params.links]]
+[params.links.list3]
+heading = "Connect"
+[[params.links.list3.link]]
+text = "+27 72 606 9392"
+url = "#"
+[[params.links.list3.link]]
+text = "Contact Form"
+url = "contact/"
