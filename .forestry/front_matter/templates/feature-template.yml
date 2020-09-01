@@ -1,4 +1,15 @@
 ---
 label: Feature Template
 hide_body: false
-fields: []
+fields:
+- name: feature_title
+  type: text
+  config:
+    required: false
+  label: Feature Title
+  description: Put the feature title here, e.g. House Boruvka
+- name: upload-feature-photos
+  type: image_gallery
+  config: {}
+  label: Upload feature photos
+  description: Upload feature photos here
